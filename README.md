@@ -50,12 +50,14 @@ Components of the knn_percentage.ipynb file include:
 2. Use of Sklearn's train_test_split and StandardScaler modules to split and scale the data.
 3. Use of Sklearn's KNeighbors Classifier to create a KNN model fi to the dataset
 4. Use of Matplotlib to visualize the accuracy of the model as training progressed.
+![alt text](https://github.com/blhawkins/NBAForecasting/blob/main/Visualizations/knn_percentage_accuracy.png 'Accuracy of KNN Percentage-Based model as training progressed')
 ### [knn_raw.ipynb](https://github.com/blhawkins/NBAForecasting/blob/main/Models/knn_raw.ipynb)
 Components of the knn_raw.ipynb file include:
 1. Importation of the raw_stats.csv dataset.
 2. Use of Sklearn's train_test_split and StandardScaler modules to split and scale the data.
 3. Use of Sklearn's KNeighbors Classifier to create a KNN model fi to the dataset
 4. Use of Matplotlib to visualize the accuracy of the model as training progressed.
+![alt text](https://github.com/blhawkins/NBAForecasting/blob/main/Visualizations/knn_raw_accuracy.png 'Accuracy of KNN Percentage-Based model as training progressed')
 ### [neural_network_percentage.ipynb](https://github.com/blhawkins/NBAForecasting/blob/main/Models/neural_network_percentage.ipynb)
 Components of the neural_network_percentage.ipynb file include:
 1. Importation of the percent_stats.csv dataset.
@@ -82,5 +84,13 @@ Components of the svm_percentage_2005.ipynb file include:
 4. Use of Sklearn's train_test_split and StandardScaler modules to split and scale the data.
 5. Use of Sklearn's SVC and GridSearchCV modules to fit an SVM model to the dataset by way of the Grid Search estimator.
 # Tableau Visualizations
+### Rise in 3PT Shooting Among Centers and Power Forwards Since 1982
+![alt text](https://github.com/blhawkins/NBAForecasting/blob/main/Visualizations/3pt_shooting_centers.png 'Line Graph Showing the Rise in 3PT Shooting Among Centers and Power Forwards Since 1982')
+
+### Rise in 3PT Shooting Among All Players Since 1982
+![alt text](https://github.com/blhawkins/NBAForecasting/blob/main/Visualizations/3pt_shooting_overall.png 'Bar Chart Showing the Rise in 3PT Shooting Among All Players Since 1982')
+
+### Overlap in Positional Roles Over Time
+![alt text](https://github.com/blhawkins/NBAForecasting/blob/main/Visualizations/positions_over_time.png 'Stacked Line Chart Showing the Overlap in Positional Roles Over Time')
     
 
